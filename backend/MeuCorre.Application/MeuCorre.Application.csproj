@@ -10,6 +10,8 @@
     <Folder Include="Interfaces\" />
     <Folder Include="Mappers\" />
     <Folder Include="Common\" />
+    <Folder Include="UseCases\Tags\Dtos\" />
+    <Folder Include="UseCases\Tags\Queries\" />
     <Folder Include="Validators\" />
     <Folder Include="UseCases\Relatorios\" />
     <Folder Include="UseCases\Transacoes\" />

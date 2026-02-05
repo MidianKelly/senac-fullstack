@@ -21,11 +21,11 @@ namespace MeuCorre.Domain.Entities
             ValidarEntidadeTag(cor);
 
             UsuarioId = usuarioId;
-            Nome = nome;
+            Nome = nome.ToLower();
             Cor = cor;
 
         }
-
+        //Construtor
         private void ValidarEntidadeTag(string cor)
         {
             if (string.IsNullOrEmpty(cor))
