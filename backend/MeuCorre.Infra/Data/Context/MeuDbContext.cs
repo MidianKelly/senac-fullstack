@@ -2,6 +2,7 @@
 using MeuCorre.Domain.Entities;
 using MeuCorre.Domain.Enums;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 
 namespace MeuCorre.Infra.Data.Context
 {
@@ -142,7 +143,10 @@ namespace MeuCorre.Infra.Data.Context
                     Ativo = true,
                     DataCriacao = new DateTime(2025, 1, 1)
                 }
+
             );
+
+            
         }
     }
 }

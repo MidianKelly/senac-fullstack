@@ -1,13 +1,17 @@
 
 using MeuCorre.Application;
+using MeuCorre.Domain.Interfaces.Repositories;
 using MeuCorre.Infra;
+using MeuCorre.Infra.Repositories;
 
 namespace MeuCorre
 {
     public class Program
     {
+
         public static void Main(string[] args)
         {
+
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -49,6 +53,8 @@ namespace MeuCorre
             app.MapControllers();
 
             app.Run();
+
+
         }
     }
 }

@@ -23,6 +23,7 @@ namespace MeuCorre.Infra
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<ICategoriaRepository, CategoriaRepository>();
             services.AddScoped<ISubcategoriaRepository, SubcategoriaRepository>();
+            services.AddScoped<ITagRepository, TagRepository>();
 
             return services;
         }
